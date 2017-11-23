@@ -21,17 +21,8 @@ class App {
             })
         })
         this.express.use('/', router)
-        this.express.servers
     }
-    /**
-     * test a number
-     * @private
-     * @param {number} var1 
-     * @memberof App
-     */
-    private test(var1:number){
 
-    }
 }
 
 const port = process.env.PORT || 10010
