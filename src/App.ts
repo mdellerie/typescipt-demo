@@ -32,8 +32,6 @@ const numCPUs = cpus().length
 
 if (cluster.isMaster) {
     console.log(`master` )
-	const test = _.filter(['1', '2', '3'], 'des')
-	console.log(test)
 
 
 /*    for (let i = 0; i < numCPUs; i++) {
